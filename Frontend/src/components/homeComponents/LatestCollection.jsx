@@ -19,7 +19,7 @@ export const LatestCollection = () => {
           <h1 className="text-[7vw] sm:text-3xl text-gray-900">COLLECTION</h1>
           <p className="h-[2px] sm:h-[2.2px] w-10 sm:w-12 bg-gray-800 border-none"></p>
         </div>
-        <p className="text-gray-500 font-semibold text-center">
+        <p className="text-gray-600 font-medium text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam,
           accusamus!
         </p>

@@ -9,7 +9,7 @@ export const Navbar = () => {
       <Link to="/">
         <img className="h-9 sm:h-11" src={assets.logo} alt="" />
       </Link>
-      <div className="hidden sm:flex sm:gap-3 md:gap-4 text-sm font-semibold text-gray-700 ">
+      <div className="hidden sm:flex sm:gap-3 md:gap-4 text-sm font-medium text-gray-700 ">
         <NavLink className="flex flex-col items-center" to="/">
           <p>HOME</p>
           <hr className="w-1/2 h-[1px] bg-black border-none hidden" />
