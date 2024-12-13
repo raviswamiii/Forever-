@@ -7,6 +7,7 @@ import { Contact } from "./pages/Contact";
 import { About } from "./pages/about";
 import { Cart } from "./pages/Cart";
 import { Product } from "./pages/Product";
+import { Footer } from "./components/Footer";
 export const App = () => {
   return (
     <div className=" px-[4vw] sm:px-[6vw] md:px-[7vw] lg:px-[9vw]">
@@ -19,6 +20,7 @@ export const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/product/:id" element={<Product />} />
       </Routes>
-    </div>
+      <Footer/>
+      </div>
   );
 };

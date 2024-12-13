@@ -18,7 +18,7 @@ export const SearchBar = () => {
 
 
   return showSearch && visible ? (
-    <div className="h-20 flex justify-center items-center border-t gap-5 bg-gray-50">
+    <div className="h-20 flex justify-center items-center border-t gap-5 bg-gray-50 border-b">
       <form
         className="flex items-center border border-gray-400 w-1/2 rounded-3xl overflow-hidden pr-4 "
         action=""

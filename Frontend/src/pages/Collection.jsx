@@ -1,7 +1,12 @@
 import React from 'react'
+import { Filters } from '../components/collectionComponents.jsx/Filters'
+import { SearchBar } from '../components/collectionComponents.jsx/SearchBar'
 
 export const Collection = () => {
   return (
-    <div>Collection</div>
+    <div>
+      <SearchBar/>
+      <Filters/>
+    </div>
   )
 }
