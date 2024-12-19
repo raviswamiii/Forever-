@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const {setShowSearch} = useContext(ShopContext)
   return (
-    <div className=" flex justify-between items-center py-4">
+    <div className=" flex justify-between items-center py-4 border-b">
       <Link to="/">
         <img className="h-9 sm:h-11" src={assets.logo} alt="" />
       </Link>
