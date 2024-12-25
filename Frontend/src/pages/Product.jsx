@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 import { RelatedProduct } from "../components/collectionComponents.jsx/RelatedProduct";
 
 export const Product = () => {
-  const { products, currency } = useContext(ShopContext);
+  const { products, currency, addToCart } = useContext(ShopContext);
   const { productId } = useParams();
   const [productData, setProductData] = useState();
   const [image, setImage] = useState();
@@ -73,7 +73,7 @@ export const Product = () => {
               ))}
             </div>
           </div>
-          <button className="bg-black text-white w-[11vw] text-sm p-3 text-center cursor-pointer my-3 active:bg-gray-700">
+          <button onClick={()=>addToCart(productData._id, size)} className="bg-black text-white w-[11vw] text-sm p-3 text-center cursor-pointer my-3 active:bg-gray-700">
             ADD TO CART
           </button>
           <hr />
