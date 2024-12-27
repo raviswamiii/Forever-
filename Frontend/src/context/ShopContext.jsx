@@ -8,8 +8,6 @@ export const ShopContextProvider = (props) => {
   const [showSearch, setShowSearch] = useState(false);
   const [search, setSearch] = useState("");
 
-  
-
   const value = {
     currency,
     products,
@@ -17,7 +15,6 @@ export const ShopContextProvider = (props) => {
     setShowSearch,
     search,
     setSearch,
-    
   };
   return (
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>
